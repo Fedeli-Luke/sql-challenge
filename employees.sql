@@ -1,21 +1,21 @@
 -- Create tables to import data into
 
-CREATE TABLE departments (
+Create table departments (
     dept_no varchar(10) NOT NULL,
     dept_name varchar(30) NOT NULL
 );
 
-CREATE TABLE dept_emp (
+Create table dept_emp (
     emp_no integer NOT NULL,
     dept_no varchar(10) NOT NULL
 );
 
-CREATE TABLE dept_manager (
+Create table dept_manager (
     dept_no varchar(10) NOT NULL,
     emp_no integer NOT NULL
 );
 
-CREATE TABLE employees (
+Create table employees (
     emp_no integer NOT NULL,
     emp_title_id varchar (10) NOT NULL,
 	birth_date date NOT NULL,
@@ -23,16 +23,16 @@ CREATE TABLE employees (
     last_name varchar(30) NOT NULL,
     sex varchar(10) NOT NULL,
     hire_date date NOT NULL,
-    CONSTRAINT "pk_employees" PRIMARY KEY (
+    Constraint "pk_employees" primary key (
         "emp_no")
 );
 
-CREATE TABLE salaries (
+Create table salaries (
     emp_no integer NOT NULL,
     salary integer NOT NULL
 );
 
-CREATE TABLE titles (
+Create table titles (
     title_id varchar(30) NOT NULL,
     title varchar(30) NOT NULL
 );
