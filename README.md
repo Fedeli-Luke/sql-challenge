@@ -12,13 +12,12 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 3. Data Analysis
 
-Note: You may hear the term "Data Modeling" in place of "Data Engineering," but they are the same terms. Data Engineering is the more modern wording instead of Data Modeling.
-
 
 
 #### Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+See ERD file
+
 #### Data Engineering
 
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
